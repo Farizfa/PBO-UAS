@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 08 Jul 2023 pada 05.49
--- Versi server: 10.4.27-MariaDB
--- Versi PHP: 8.1.12
+-- Generation Time: Jul 13, 2023 at 10:37 AM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_admin`
+-- Table structure for table `tb_admin`
 --
 
 CREATE TABLE `tb_admin` (
@@ -35,16 +35,18 @@ CREATE TABLE `tb_admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data untuk tabel `tb_admin`
+-- Dumping data for table `tb_admin`
 --
 
 INSERT INTO `tb_admin` (`id_admin`, `nama_admin`, `username`, `password`) VALUES
-('001', 'JON HERIANTO', 'admin', 'admin');
+('A11.2021.13252', 'Muhammad Fariz Fadhilah Aditya', 'admin1', 'admin1'),
+('A11.2021.13328', 'Muhammad Faisal Zuhair', 'admin2', 'admin2'),
+('A11.2021.13442', 'Dani Ahmad Izzul Haq', 'admin3', 'admin3');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_history_tamu`
+-- Table structure for table `tb_history_tamu`
 --
 
 CREATE TABLE `tb_history_tamu` (
@@ -65,18 +67,25 @@ CREATE TABLE `tb_history_tamu` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data untuk tabel `tb_history_tamu`
+-- Dumping data for table `tb_history_tamu`
 --
 
 INSERT INTO `tb_history_tamu` (`no_tamu`, `nama_tamu`, `jenis_kelamin`, `alamat`, `no_tlp`, `kode_kamar`, `lantai`, `no_kamar`, `tipe_kamar`, `harga_permalam`, `cek_in`, `cek_out`, `lama_menginap`, `total_biaya`) VALUES
 ('14140003243', 'mbasdf', 'Laki-laki', 'asvdsadvsd', '0868578', '2002', 'Lantai 2', '002', 'Ekonomi', 200000, '15-12-2016', '23-12-2016', 8, 1600000),
 ('11223344', 'skddkfn', 'Perempuan', 'sffgsdfgsdgf', '0835356456', '2003', 'Lantai 2', '003', 'VIP', 300000, '23-12-2016', '24-12-2016', 1, 300000),
-('141400013', 'Joni Herianto', 'Laki-laki', 'Padang', '0345938745', '1001', 'Lantai 1', '001', 'Ekonomi', 300000, '14-11-2016', '26-12-2016', 42, 12600000);
+('141400013', 'Joni Herianto', 'Laki-laki', 'Padang', '0345938745', '1001', 'Lantai 1', '001', 'Ekonomi', 300000, '14-11-2016', '26-12-2016', 42, 12600000),
+('12345', 'test', 'Laki-laki', 'jalan jalan', '123456', '1001', 'Lantai 1', '001', 'Ekonomi', 300000, '08-07-2023', '08-07-2023', 0, 300000),
+('1234', 'test kamar', 'Laki-laki', 'qowefuhgdhcoqwuasdgbcvkaghjfv', '7263517963', '2003', 'Lantai 2', '003', 'VIP', 300000, '11-07-2023', '11-07-2023', 0, 300000),
+('647107041-', 'coba check in', 'Laki-laki', 'hwqgjflqjhwvfjhv.', '02551321354', '2002', 'Lantai 2', '002', 'Ekonomi', 200000, '11-07-2023', '11-07-2023', 0, 200000),
+('234213', 'ssdgfsd', 'Laki-laki', 'dfgsdfg', '59679579', '2001', 'Lantai 2', '002', 'Bisnis', 250000, '13-12-2016', '11-07-2023', 2401, 600250000),
+('5di', 'rtdyity', 'Laki-laki', 'ytfiytd', '564227', '2001', 'Lantai 2', '002', 'Bisnis', 250000, '12-07-2023', '12-07-2023', 0, 250000),
+('123434', 'FGRdsadgfgag', 'Laki-laki', 'afdhdfhdfhhdh', '142351345', '2001', 'Lantai 2', '002', 'Bisnis', 250000, '13-07-2023', '13-07-2023', 0, 250000),
+('31121', 'Dani Y', 'Laki-laki', 'demak', '0812345', '2003', 'Lantai 2', '003', 'VIP', 300000, '13-07-2023', '13-07-2023', 0, 300000);
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_kamar`
+-- Table structure for table `tb_kamar`
 --
 
 CREATE TABLE `tb_kamar` (
@@ -88,11 +97,11 @@ CREATE TABLE `tb_kamar` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data untuk tabel `tb_kamar`
+-- Dumping data for table `tb_kamar`
 --
 
 INSERT INTO `tb_kamar` (`kode_kamar`, `lantai`, `no_kamar`, `tipe_kamar`, `harga_permalam`) VALUES
-('1001', 'Lantai 1', '001', 'Ekonomi', 300000),
+('1001', 'Lantai 1', '001', 'Ekonomi', 200000),
 ('2001', 'Lantai 2', '002', 'Bisnis', 250000),
 ('2002', 'Lantai 2', '002', 'Ekonomi', 200000),
 ('2003', 'Lantai 2', '003', 'VIP', 300000),
@@ -101,7 +110,7 @@ INSERT INTO `tb_kamar` (`kode_kamar`, `lantai`, `no_kamar`, `tipe_kamar`, `harga
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_karyawan`
+-- Table structure for table `tb_karyawan`
 --
 
 CREATE TABLE `tb_karyawan` (
@@ -114,20 +123,19 @@ CREATE TABLE `tb_karyawan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data untuk tabel `tb_karyawan`
+-- Dumping data for table `tb_karyawan`
 --
 
 INSERT INTO `tb_karyawan` (`id_karyawan`, `nama_karyawan`, `jenis_kelamin`, `alamat`, `no_tlp`, `password`) VALUES
-('001', 'JONI H', 'Laki-laki', 'PADANG', '081365402269', '12345'),
-('141400001', 'COBA', 'Perempuan', 'JAKARTA SELATAN', '081938173', 'password'),
 ('141400011', 'NOVA', 'Perempuan', 'PADANG SUMATERA BARAT', '083418364', '12345'),
-('141400013', 'JONI HERIANTO', 'Laki-laki', 'PADANG', '08913932234', '12345'),
-('user', 'JHON HENRI', 'Laki-laki', 'user', '0828374', 'user');
+('141400012', 'DANI YEN', 'Laki-laki', 'DEMAK', '08123654987', 'karyawan'),
+('141400013', 'JONI HERIANTO', 'Laki-laki', 'PADANG', '08913932234', 'password'),
+('141400014', 'user', 'Laki-laki', 'Sadewasatu', '081234567890', 'user');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_tamu`
+-- Table structure for table `tb_tamu`
 --
 
 CREATE TABLE `tb_tamu` (
@@ -142,38 +150,37 @@ CREATE TABLE `tb_tamu` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data untuk tabel `tb_tamu`
+-- Dumping data for table `tb_tamu`
 --
 
 INSERT INTO `tb_tamu` (`no_tamu`, `nama_tamu`, `jenis_kelamin`, `alamat`, `no_tlp`, `kode_kamar`, `tgl_cek_in`, `jam_cek_in`) VALUES
-('131300012343', 'JONI', 'Laki-laki', 'JAKARTA', '0812391374', '3001', '24-12-2016', '01:00:05'),
-('234213', 'ssdgfsd', 'Laki-laki', 'dfgsdfg', '59679579', '2001', '13-12-2016', '13:59:43');
+('131300012343', 'JONI', 'Laki-laki', 'JAKARTA', '0812391374', '3001', '24-12-2016', '01:00:05');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `tb_admin`
+-- Indexes for table `tb_admin`
 --
 ALTER TABLE `tb_admin`
   ADD PRIMARY KEY (`id_admin`);
 
 --
--- Indeks untuk tabel `tb_history_tamu`
+-- Indexes for table `tb_history_tamu`
 --
 ALTER TABLE `tb_history_tamu`
   ADD KEY `no_tamu` (`no_tamu`),
   ADD KEY `kode_kamar` (`kode_kamar`);
 
 --
--- Indeks untuk tabel `tb_kamar`
+-- Indexes for table `tb_kamar`
 --
 ALTER TABLE `tb_kamar`
   ADD PRIMARY KEY (`kode_kamar`);
 
 --
--- Indeks untuk tabel `tb_karyawan`
+-- Indexes for table `tb_karyawan`
 --
 ALTER TABLE `tb_karyawan`
   ADD PRIMARY KEY (`id_karyawan`);

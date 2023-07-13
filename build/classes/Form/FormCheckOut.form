@@ -50,12 +50,12 @@
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="t_kembalian" max="32767" attributes="0"/>
                               <Component id="t_bayar" max="32767" attributes="0"/>
+                              <Component id="t_kembalian" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
                           <Component id="b_ok" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           <Component id="b_reset" min="-2" pref="113" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
@@ -78,7 +78,7 @@
                       <Component id="jPanel3" max="32767" attributes="0"/>
                       <Component id="jPanel4" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -105,7 +105,7 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
+              <Color blue="99" green="66" red="0" type="rgb"/>
             </Property>
           </Properties>
 
@@ -133,7 +133,7 @@
             <Component class="javax.swing.JLabel" name="l_judul">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="18" style="1"/>
+                  <Font name="Arial Rounded MT Bold" size="20" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -150,10 +150,10 @@
         <Component class="javax.swing.JButton" name="b_ok">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="14" style="0"/>
+              <Font name="Rockwell" size="14" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Img/accept.png"/>
+              <Image iconType="3" name="/Img/accept_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cek Out"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -167,10 +167,10 @@
         <Component class="javax.swing.JButton" name="b_reset">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="14" style="0"/>
+              <Font name="Rockwell" size="14" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Img/refresh.png"/>
+              <Image iconType="3" name="/Img/refresh_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Reset"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -189,7 +189,7 @@
                   <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                     <EtchetBorder/>
                   </Border>
-                  <Font PropertyName="font" name="Tahoma" size="18" style="0"/>
+                  <Font PropertyName="font" name="Rockwell" size="18" style="0"/>
                 </TitledBorder>
               </Border>
             </Property>
@@ -218,8 +218,8 @@
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="l_lama_meginap1" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="l_total_bayar2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="l_lama_meginap1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -276,7 +276,7 @@
                               <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="110" max="32767" attributes="0"/>
+                      <EmptySpace pref="126" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -285,7 +285,7 @@
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Lantai"/>
               </Properties>
@@ -293,7 +293,7 @@
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Kode Kamar"/>
               </Properties>
@@ -301,7 +301,7 @@
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="No Kamar"/>
               </Properties>
@@ -309,7 +309,7 @@
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Tipe Kamar"/>
               </Properties>
@@ -317,7 +317,7 @@
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Harga/kamar"/>
               </Properties>
@@ -325,7 +325,7 @@
             <Component class="javax.swing.JLabel" name="jLabel13">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Total Bayar"/>
               </Properties>
@@ -333,7 +333,7 @@
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Lama Menginap"/>
               </Properties>
@@ -341,7 +341,7 @@
             <Component class="javax.swing.JLabel" name="l_total_bayar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -349,7 +349,7 @@
             <Component class="javax.swing.JLabel" name="l_lama_meginap">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -357,7 +357,7 @@
             <Component class="javax.swing.JLabel" name="l_harga_kamar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -365,7 +365,7 @@
             <Component class="javax.swing.JLabel" name="l_tipe_kamar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -373,7 +373,7 @@
             <Component class="javax.swing.JLabel" name="l_no_kamar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -381,7 +381,7 @@
             <Component class="javax.swing.JLabel" name="l_lantai">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -389,7 +389,7 @@
             <Component class="javax.swing.JLabel" name="l_kode_kamar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -397,7 +397,7 @@
             <Component class="javax.swing.JLabel" name="l_lama_meginap1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Hari"/>
               </Properties>
@@ -405,7 +405,7 @@
             <Component class="javax.swing.JLabel" name="l_total_bayar2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Rupiah"/>
               </Properties>
@@ -420,7 +420,7 @@
                   <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                     <EtchetBorder bevelType="0"/>
                   </Border>
-                  <Font PropertyName="font" name="Tahoma" size="18" style="0"/>
+                  <Font PropertyName="font" name="Rockwell" size="18" style="0"/>
                 </TitledBorder>
               </Border>
             </Property>
@@ -497,7 +497,7 @@
                           <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="l_tgl_cekout" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="64" max="32767" attributes="0"/>
                       <Component id="l_info" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -508,7 +508,10 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="No Tlp"/>
               </Properties>
@@ -516,7 +519,10 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Alamat"/>
               </Properties>
@@ -524,7 +530,10 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
               </Properties>
@@ -532,7 +541,10 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Nama"/>
               </Properties>
@@ -540,7 +552,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ID/No KTP"/>
               </Properties>
@@ -548,7 +560,7 @@
             <Component class="javax.swing.JComboBox" name="c_no_tamu">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="1">
@@ -567,7 +579,10 @@
             <Component class="javax.swing.JLabel" name="l_nama">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -575,7 +590,10 @@
             <Component class="javax.swing.JLabel" name="l_jk">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -583,7 +601,10 @@
             <Component class="javax.swing.JLabel" name="l_alamat">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -591,7 +612,10 @@
             <Component class="javax.swing.JLabel" name="l_no_tlp">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -610,23 +634,32 @@
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Tanggal CekIn"/>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tanggal CheckIn"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Tanggal CekOut"/>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tanggal CheckOut"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="l_tgl_cekout">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -634,7 +667,10 @@
             <Component class="javax.swing.JLabel" name="l_tgl_cekin">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Arial-Rounded" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="29" green="15" red="1c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="-"/>
               </Properties>
@@ -644,10 +680,10 @@
         <Component class="javax.swing.JLabel" name="l_jam2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="0"/>
+              <Font name="Georgia" size="18" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="29" green="15" red="1c" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
             <Property name="text" type="java.lang.String" value="Bayar"/>
@@ -656,10 +692,10 @@
         <Component class="javax.swing.JLabel" name="l_jam3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="0"/>
+              <Font name="Georgia" size="18" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="29" green="15" red="1c" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
             <Property name="text" type="java.lang.String" value="Kembalian"/>
@@ -668,7 +704,10 @@
         <Component class="javax.swing.JTextField" name="t_bayar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="0"/>
+              <Font name="Arial-Rounded" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="15" red="1c" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="0"/>
           </Properties>
@@ -680,7 +719,10 @@
         <Component class="javax.swing.JTextField" name="t_kembalian">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="0"/>
+              <Font name="Arial-Rounded" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="15" red="1c" type="rgb"/>
             </Property>
           </Properties>
         </Component>
