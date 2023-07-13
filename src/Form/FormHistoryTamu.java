@@ -34,8 +34,9 @@ public class FormHistoryTamu extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        b_refersh.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_refersh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_refersh.setFont(new java.awt.Font("Rockwell", 0, 14)); // NOI18N
+        b_refersh.setForeground(new java.awt.Color(28, 21, 41));
+        b_refersh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_1.png"))); // NOI18N
         b_refersh.setText("Refresh");
         b_refersh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_refersh.addActionListener(new java.awt.event.ActionListener() {
@@ -54,9 +55,10 @@ public class FormHistoryTamu extends javax.swing.JDialog {
         ));
         jScrollPane1.setViewportView(tbl_history);
 
-        b_cari.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_cari.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search 24x24.png"))); // NOI18N
-        b_cari.setText("Cari");
+        b_cari.setFont(new java.awt.Font("Rockwell", 0, 14)); // NOI18N
+        b_cari.setForeground(new java.awt.Color(28, 21, 41));
+        b_cari.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search_3.png"))); // NOI18N
+        b_cari.setText(" Cari");
         b_cari.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +66,8 @@ public class FormHistoryTamu extends javax.swing.JDialog {
             }
         });
 
-        t_cari.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_cari.setFont(new java.awt.Font("Arial-Rounded", 0, 14)); // NOI18N
+        t_cari.setForeground(new java.awt.Color(28, 21, 41));
         t_cari.setToolTipText("Ketikkan yang akan dicari DISINI");
         t_cari.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
@@ -72,9 +75,9 @@ public class FormHistoryTamu extends javax.swing.JDialog {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(51, 82, 72));
+        jPanel4.setBackground(new java.awt.Color(0, 102, 153));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 20)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel3.setText("Data History Tamu");
@@ -83,14 +86,17 @@ public class FormHistoryTamu extends javax.swing.JDialog {
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+            .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(9, 9, 9))
         );
 
         javax.swing.GroupLayout panel_karyawanLayout = new javax.swing.GroupLayout(panel_karyawan);
@@ -100,15 +106,15 @@ public class FormHistoryTamu extends javax.swing.JDialog {
             .addGroup(panel_karyawanLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1129, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1)
                     .addGroup(panel_karyawanLayout.createSequentialGroup()
                         .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(b_refersh, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panel_karyawanLayout.createSequentialGroup()
-                        .addComponent(b_cari)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(t_cari)))
+                        .addComponent(b_refersh, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_karyawanLayout.createSequentialGroup()
+                        .addComponent(b_cari)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(t_cari, javax.swing.GroupLayout.PREFERRED_SIZE, 1038, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         panel_karyawanLayout.setVerticalGroup(
@@ -118,12 +124,12 @@ public class FormHistoryTamu extends javax.swing.JDialog {
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_refersh, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(36, 36, 36)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 292, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_cari, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(t_cari, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(t_cari))
                 .addContainerGap())
         );
 
